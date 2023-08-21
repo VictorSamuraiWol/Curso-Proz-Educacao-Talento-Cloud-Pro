@@ -19,7 +19,7 @@ print('Andar - 18')
 print('Andar - 19')
 print('Andar - 20')
 
-#usado for incremento
+#usando for incremento
 for i in range(1,21):
   if i==13 : continue
   print('Prédio i - Andar - ',i)
@@ -31,7 +31,7 @@ while l<20 :
   if l==13 : continue
   print('Prédio l - Andar - ',l)
 
-#usado for decremento
+#usando for decremento
 for i in range(20,0,-1):
   if i==13 : continue
   print('Prédio i - Andar - ',i)
