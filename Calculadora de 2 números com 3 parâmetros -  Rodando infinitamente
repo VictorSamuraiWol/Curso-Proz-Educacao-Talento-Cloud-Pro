@@ -1,0 +1,26 @@
+operador = int(input('Digite o número correspondente ao operador -> \n 1.soma; \n 2.subtração; \n 3.multiplicação; \n 4.divisão: \n 0.Sair \n'))
+if operador > 0 and operador < 5 :
+  num1 = int(input('Digite o primeiro número: '))
+  num2 = int(input('Digite o segundo número: '))
+  def calculadora (num1, num2, operador) :
+    soma = num1+num2
+    sub = num1-num2
+    mult = num1*num2
+    div = num1/num2
+    if operador == 1 : return num1 + num2
+    elif operador == 2 : return num1 - num2
+    elif operador == 3 : return num1 * num2
+    elif operador == 4 : return num1 / num2
+    elif operador == 0: return 'Saindo...'
+    else : return 'Essa opção não existe.'
+
+resultado = calculadora (num1, num2, operador)
+print(resultado) 
+
+while operador != 0 :
+  operador = int(input('Digite o número correspondente ao operador -> \n 1.soma; \n 2.subtração; \n 3.multiplicação; \n 4.divisão: \n 0.Sair \n'))
+  if operador > 0 and operador < 5 :
+    num1 = int(input('Digite o primeiro número: '))
+    num2 = int(input('Digite o segundo número: '))
+  resultado = calculadora (num1, num2, operador)
+  print(resultado)
