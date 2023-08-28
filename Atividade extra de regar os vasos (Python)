@@ -1,0 +1,11 @@
+print('--> Regar os vasos 3-5 com as batatas:\n')
+for i in range(3, 6, 1) : print('Regar o vaso %d com as batatas'%i)
+
+print('\n--> Regar os vasos 0-1 e 4-5 com as tomates:\n')
+for i in range(6) :
+  if i==2 : continue
+  elif i==3 : continue
+  print('Regar o vaso %d com as tomates'%i)
+
+print('\n-->Regar os vasos de 5-0 de forma decrescente:\n')
+for i in range(5,-1,-1) : print('Regar o vaso %d'%i)
