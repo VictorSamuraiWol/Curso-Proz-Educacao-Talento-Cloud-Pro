@@ -5,5 +5,9 @@
 qntPessoas = int(input('Insira a quantidade de pessoas entrevistadas no dia: '))
 i = 1
 while(i <= qntPessoas) : 
-  print('Você entrevistou a pessoa de código %d'%i)
+  print('Você entrevistou a pessoa de código %d\n'%i)
   i = i + 1
+
+qntPessoas = int(input('Insira a quantidade de pessoas entrevistadas no dia: '))
+for qntPessoas in range (1, qntPessoas, 1) :
+  print('Você entrevistou a pessoa de código %d\n'%qntPessoas)
