@@ -1,0 +1,9 @@
+#Você trabalha para o IBGE e todas as semanas recebe uma lista de pessoas para entrevistar.
+#Precisamos de um sistema no qual você insere a quantidade de pessoas entrevistadas no dia,
+#e imprime uma mensagem por cada uma delas
+
+qntPessoas = int(input('Insira a quantidade de pessoas entrevistadas no dia: '))
+i = 1
+while(i <= qntPessoas) : 
+  print('Você entrevistou a pessoa de código %d'%i)
+  i = i + 1
