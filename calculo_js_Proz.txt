@@ -1,0 +1,15 @@
+console.log("Hello, World!");
+/*criando a função calculo*/
+
+let calculo = (n1,n2) => {
+  const soma = n1 + n2;
+  const sub = n1 - n2;
+  const mult = n1 * n2;
+  const div = n1 / n2;
+  console.log(`A soma de ${n1} e ${n2} é ${soma}!`);
+  console.log(`A subtração de ${n1} e ${n2} é ${sub}!`);
+  console.log(`A multiplicação de ${n1} e ${n2} é ${mult}!`);
+  console.log(`A divisão de ${n1} e ${n2} é ${div}!`);
+}
+
+calculo (4,5);
