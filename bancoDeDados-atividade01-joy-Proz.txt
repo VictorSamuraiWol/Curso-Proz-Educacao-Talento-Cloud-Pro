@@ -43,3 +43,7 @@ outro banco de dados parecido e popular, chamado MariaDB.
 -Microsoft SQL Server: Microsoft SQL Server é um banco de dados lançado em 1989 e que se ramificou em diversas versões, as quais atendem diversos públicos. Há desde versões 
 para pequenas aplicações até outras para aplicações escaláveis de Internet das Coisas (IoT), por meio da Azure, a nuvem da Microsoft. O SGBD usa um dialeto da linguagem SQL, 
 chamado T-SQL. Por ser uma solução corporativa e paga, como o Oracle Database, oferece uma gama de benefícios a empresas, como maior segurança.
+
+Fontes:
+https://awari.com.br/sistemas-de-banco-de-dados/
+https://db-engines.com/en/ranking
